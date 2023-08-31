@@ -16,7 +16,7 @@ searchUser.addEventListener("keyup", (e) =>{
             } else{
                 //profile HTML 렌더링
                 ui.showProfile(data.profile);
-
+                ui.showRepos(data.repos);
                 //repos HTML 렌더링
             }
         })
