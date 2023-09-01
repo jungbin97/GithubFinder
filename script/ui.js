@@ -38,6 +38,9 @@ class UI{
                     </div>
                 </div>
             </div>
+            <div class="">
+                <img src="https://ghchart.rshah.org/${user.login}"/>
+            </div>
             <h3 class="page-heading mb-3">Latest Repositories</h3>
             <div class="repos">
             </div>
