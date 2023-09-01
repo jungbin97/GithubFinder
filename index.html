@@ -18,10 +18,11 @@
         <div class="search card card-body">
             <h1>Search GitHub Users</h1>
             <p>Enter a username to search for user profile and repositories</p>
-            <div class="form-group serach-section">
+            <div class="form-group search-section">
                 <input type="text" class="form-control searchUser" placeholder="username">
             </div>
         </div>
+    </div>
         <br>
         <!-- 자바 스크립트로 렌더링 -->
         <div class="profile">
@@ -49,7 +50,7 @@
                                     location: ${user.location}
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    Creaated_at: ${user.created_at}
+                                    Created_at: ${user.created_at}
                                 </li>
                             </ul>
                         </div>
@@ -64,7 +65,7 @@
     <!-- footer -->
     <footer class="mt-5 p-3 text-center bg-light">github finder</footer>
     
-    <!--  JS 파일 github먼저 로드 -->
+    <!--  JS 파일 github 먼저 로드 -->
     <script src="script/github.js"></script>
     <script src="script/ui.js"></script>
     <script src="script/app.js"></script>
